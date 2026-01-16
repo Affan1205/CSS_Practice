@@ -1,0 +1,122 @@
+.main{
+    width: 1000px;
+    height: 640px;
+    background-color: aqua;
+}
+.main .row1{
+    width: 1000px;
+    height: 100px;
+    background-color: grey;
+}
+.main .row2{
+    width: 1000px;
+    height: 40px;
+}
+.main .row3{
+    width: 1000px;
+    height: 200px;
+}
+.main .size{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    color: black;
+}
+.main .row2_col1{ 
+    background-color: brown;
+}
+.main .row2_col2{
+    background-color: beige;
+}
+.main .row2_col3{
+    background-color: rgb(208, 140, 13);
+}
+.main .row2_col4{
+    background-color: rgb(158, 12, 124);
+}
+.main .row2_col5{
+    background-color: rgba(22, 209, 44, 0.467);
+}
+.main .row3_col1{
+    width: 250px;
+    height: 200px;
+    background-color: red;
+}
+/* .main .row3_col2{
+    width: 750px;
+    height: 200px;
+    background-color: orange;
+    float: left;
+} */
+
+.main .size2{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.main .size3{
+    float: left;
+}
+.main .row3_col1row1{
+    background-color: rgb(15, 189, 82);
+
+}
+.main .row3_col1row2{
+    background-color: rgb(102, 17, 181);
+}
+.main .row3_col1row3{
+    background-color: rgba(131, 130, 139, 0.649);
+}
+.main .row3_col1row4{
+    background-color: rgb(78, 70, 86);
+}
+.main .row3_col1row5{
+  background-color: gold;
+}
+.main .row3_col2{
+    width: 750px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    background-color: orange;
+}
+.main .row4{
+    width: 1000px;
+    height: 150px;
+    background-color: coral;
+    text-align: center;
+    line-height: 150px;
+}
+.main .row5{
+    width: 1000px;
+    height: 100px;
+}
+.main .size4{
+width: 333px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+}
+.main .row5_col1{
+    
+    background-color: red;
+}
+.main .row5_col2{
+    
+    background-color:cornflowerblue;
+}
+.main .row5_col3{
+    
+    background-color: olivedrab;
+}
+.main .row6{
+    width: 1000px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:burlywood;
+}

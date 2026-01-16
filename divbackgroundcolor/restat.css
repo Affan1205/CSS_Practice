@@ -1,0 +1,110 @@
+.main {
+  width: 1000px;
+  height: 640px;
+  background-color: #f08080;
+}
+.main .row1 {
+  width: 1000px;
+  height: 100px;
+  background-color: blueviolet;
+}
+.main .row2 {
+  width: 1000px;
+  height: 40px;
+  background-color: brown;
+}
+.main .size {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+  font-size: 20px;
+  color: white;
+}
+.main .row2col1 {
+  background-color: chocolate;
+}
+.main .row2col2 {
+  background-color: gray;
+}
+.main .row2col3 {
+  background-color: green;
+}
+.main .row2col4 {
+  background-color: rgb(8, 240, 244);
+}
+.main .row2col5 {
+  background-color: rgb(18, 107, 142);
+}
+.main .row3 {
+  width: 1000px;
+  height: 200px;
+  background-color: gold;
+}
+.main img {
+  width: 100%;
+  height: 100%;
+}
+.main .leftside {
+  width: 250px;
+  height: 200px;
+  float: left;
+  background-color: blue;
+}
+.main .size2 {
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: white;
+}
+.main .row3col1 {
+  background-color: rgb(19, 15, 102);
+}
+.main .row3col2 {
+  background-color: #d23842;
+}
+.main .row3col3 {
+  background-color: rgb(120, 70, 9);
+}
+.main .row3col4 {
+  background-color: rgb(121, 10, 16);
+}
+.main .row3col5 {
+  background-color: rgb(61, 172, 6);
+}
+.main .row3col6 {
+  width: 750px;
+  height: 200px;
+  float: left;
+  background-color: aqua;
+}
+.main .row4 {
+  width: 1000px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 30px;
+  background-color: rgb(234, 61, 41);
+}
+.main .row5 {
+  width: 1000px;
+  height: 100px;
+  background-color: purple;
+}
+.main .size3 {
+  width: 333.3px;
+  height: 100px;
+  background-color: #d23842;
+  float: left;
+}
+.main .row6 {
+  width: 1000px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  background-color: rgb(175, 180, 55);
+}

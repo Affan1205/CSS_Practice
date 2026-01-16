@@ -1,0 +1,121 @@
+.main {
+  width: 1000px;
+  height: 640px;
+  background-color: #a2a8d3;
+}
+.main .row1 {
+  width: 1000px;
+  height: 100px;
+  background-color: #f95959;
+}
+.main .dim {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+}
+.main .row2_col1 {
+  background-color: #155263;
+}
+.main .row2_col2 {
+  background-color: #ff6f3c;
+}
+.main .row2_col3 {
+  background-color: #ff9a3c;
+}
+.main .row2_col4 {
+  background-color: #ffc93c;
+}
+.main .row2_col5 {
+  background-color: #f70776;
+}
+.main .row3 {
+  width: 1000px;
+  height: 200px;
+  background-color: #837d70;
+}
+.main .row3_left {
+  width: 250px;
+  height: 200px;
+  background-color: aqua;
+  float: left;
+}
+.main .row3_right {
+  width: 750px;
+  height: 200px;
+  background-color: brown;
+  float: left;
+}
+.main .size {
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.main .row3_col1row1 {
+  background-color: mediumaquamarine;
+}
+.main .row3_col1row2 {
+  background-color: #ff6f3c;
+}
+.main .row3_col1row3 {
+  background-color: pink;
+}
+.main .row3_col1row4 {
+  background-color: red;
+}
+.main .row3_col1row5 {
+  background-color: green;
+}
+/* wrong practice */
+/* .main .row3_right img {
+  width: 750px;
+  height: 200px;
+} */
+
+/* Good practice */
+.main img {
+  width: 100%;
+  height: 100%;
+}
+.main .row4 {
+  width: 1000px;
+  height: 150px;
+  background-color: indigo;
+  text-align: center;
+  line-height: 150px;
+  font-size: 35px;
+}
+.main .row5 {
+  width: 1000px;
+  height: 150px;
+  background-color: palevioletred;
+}
+.main .sizerow5 {
+  width: 333.3px;
+  height: 150px;
+  float: left;
+}
+.main .row5_co1 {
+  background-color: burlywood;
+}
+.main .row5_col2 {
+  background-color: violet;
+}
+.main .row5_col3 {
+  background-color: chocolate;
+}
+/* wrong practice */
+/* .main .row5 img {
+  width: 333.3px;
+  height: 150px;
+} */
+
+.main .row6{
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}

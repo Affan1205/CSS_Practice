@@ -1,0 +1,17 @@
+.main {
+  width: 500px;
+  height: 500px;
+  border: 2px solid blue;
+  /* background-color: green; */
+  /* background-image: url(ganges-10021683_640.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px ; */
+  /* imp to know */
+  /* background-size: cover;
+    background-size: contain; */
+  /* background-position: bottom center; 
+    background-position: top center;
+    background-position: top right ; */
+    background: url(ganges-10021683_640.jpg) no-repeat bottom right;     
+    background-size: 150px;
+}

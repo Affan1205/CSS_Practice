@@ -1,0 +1,14 @@
+.main{
+    width: 600px;
+    height: 600px;
+    border: 10px solid blue;
+    background: url(flower-10016332_640.jpg) no-repeat top left , 
+                url(ganges-10021683_640.jpg)  no-repeat top right,
+                url(hot-air-balloon-2411851_640.jpg) no-repeat center,
+                url(hot-air-balloon-9876494_640.jpg) no-repeat bottom left,
+                url(vineyard-10005761_640.jpg) no-repeat bottom right;
+                ;
+   background-size: 150px;
+   
+}
+

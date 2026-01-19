@@ -1,0 +1,19 @@
+.main {
+  width: 800px;
+  height: 600px;
+  border: 1px solid red;
+  /* background-image: url(uran-wang-ZAmmgLLfTUc-unsplash.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 200px; */
+  /* background-size: cover; */
+  /* background-size: contain; */
+  /* background-position: top left; */
+  /* background-position: bottom left; */
+  /* background-position: center; */
+  /* background-position: top right; */
+
+  /* better way to write background Image */
+  background : url(uran-wang-ZAmmgLLfTUc-unsplash.jpg) no-repeat bottom center;
+  background-size: 250px;
+  /* background-attachment: fixed; */
+}

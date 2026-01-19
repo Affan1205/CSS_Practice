@@ -1,0 +1,11 @@
+.main {
+  width: 800px;
+  height: 600px;
+  border: 1px solid purple;
+  background: url(pexels-enginakyurt-2299028.jpg) no-repeat top left,
+    url(pexels-kristingroth2-57687.jpg) no-repeat top right,
+    url(uran-wang-ZAmmgLLfTUc-unsplash.jpg) no-repeat center,
+    url(pexels-pok-rie-33563-128328.jpg) no-repeat bottom right,
+    url(pexels-mateusz-dach-99805-914929.jpg) no-repeat bottom left;
+  background-size: 250px;
+}

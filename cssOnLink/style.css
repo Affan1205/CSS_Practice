@@ -1,0 +1,20 @@
+a {
+  text-decoration: none;
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  /* text-decoration:line-through; */
+}
+
+/* for fresh link */
+a:link{
+    color: green;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: grey;
+}
+a:active{
+    color: yellow;
+}

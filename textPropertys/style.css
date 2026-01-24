@@ -1,0 +1,10 @@
+.main{
+    width: 400px;
+    height: 500px;
+    border: 2px solid blue;
+    /* white-space: pre; */
+    /* white-space: wrap; */
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    /* word-break: break-word; */
+}

@@ -1,0 +1,25 @@
+h1{
+    font-size: 50px;
+    /* font-style:italic;
+    font-weight: 400; */
+    font-family: "Rouge Script", cursive;
+}
+h3{
+    font-size: 30px;
+    font-weight: 200px;
+    font-family: "Rouge Script", cursive;
+}
+@font-face {
+    font-family: offlineFont;
+    src: url(Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: offlineFontforBlockquote;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+p{
+    font-family: offlineFont;
+}
+blockquote{
+    font-family: offlineFontforBlockquote;
+}

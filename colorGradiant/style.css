@@ -1,0 +1,18 @@
+.main {
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  border: 2px solid blueviolet;
+  /* background: linear-gradient(to top ,red, blue, orange, purple); */
+  /* background: linear-gradient(to bottom ,red, blue, orange, purple); */
+  /* background: linear-gradient( to left,red, blue, orange, purple); */
+  /* background: linear-gradient( to right,red, blue, orange, purple); */
+  /* background: linear-gradient( to top right,red, blue, orange, purple); */
+  /* background: linear-gradient( 90deg,red, blue, orange, purple); */
+  /* background: linear-gradient( 120deg,red, blue, orange, purple); */
+  /* background: linear-gradient( to right,red 50%, blue 80%, orange, purple); */
+  /* background: radial-gradient(circle,red 50%,green,blue,orange); */
+  background: conic-gradient(red, green, yellow, blue);
+
+  /* opacity: 0;(range: 0 to 1) */
+}

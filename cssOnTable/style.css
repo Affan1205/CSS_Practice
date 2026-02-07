@@ -1,0 +1,17 @@
+th,td{
+    border: 1px solid green;
+}
+table{
+    width: 800px;
+    height: 800px;
+    border:1px solid red;
+    /* table-layout fixed the space for content */
+    table-layout: fixed;
+    /* word-break: break-word; */
+
+    /* border-collapse remove the space b/w cells */
+    /* border-collapse: collapse; */
+
+    /* hide cell which are empty by empty cell */
+    empty-cells: hide;
+}

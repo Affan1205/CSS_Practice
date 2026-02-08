@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table,td{
+    border: 1px solid black;
+}
+table{
+    margin: 0 auto;
+}
+td{
+    width: 80px;
+    height: 80px;
+}
+td .box{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    float: left;
+    margin: 20px 40px;
+    border-radius: 10px;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+td .center{
+    width: 0;
+    height: 0;
+    border: 120px solid red ;
+    border-top: 120px solid green;
+    border-right: 120px solid yellow;
+    border-bottom: 120px solid blue;
+    }

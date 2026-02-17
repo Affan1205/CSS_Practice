@@ -1,0 +1,36 @@
+.main {
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+  margin: 30px auto;
+}
+.main .box {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  line-height: 80px;
+}
+.main .box:nth-child(1){
+    background-color: rgb(255, 157, 157);
+    z-index: 3;
+    /* z-index: 2; */
+}
+.main .box:nth-child(2){
+    background-color: rgb(138, 159, 255);
+    top: 40px;
+    left: -50px;
+    z-index: 2;
+    /* z-index: 1; */
+}
+.main .box:nth-child(3){
+    background-color: rgb(151, 255, 140);
+    top: 80px;
+    left: -100px;
+    z-index:1 ;
+    /* z-index:3 ; */
+}

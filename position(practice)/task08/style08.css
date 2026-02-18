@@ -1,0 +1,60 @@
+.main {
+  width: 1200px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 20px auto;
+  position: relative;
+}
+ .main:hover .icondim{
+  opacity: 1;
+}
+.box {
+  width: 400px;
+  height: 400px;
+  float: left;
+  box-sizing: border-box;
+}
+.left {
+  background: url(photo_2025-03-30_09-48-24.jpg) no-repeat;
+  background-size: cover;
+}
+.center {
+  background: url(photo_2025-03-30_09-48-24\ \(3\).jpg) no-repeat;
+  background-size: cover;
+}
+.right {
+  background: url(photo_2025-03-30_09-48-24\ \(2\).jpg) no-repeat;
+  background-size: cover;
+}
+.icondim {
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  opacity: 0;
+}
+.icon1 {
+  position: absolute;
+  top: calc(5%);
+  left: calc(1%);
+  background: url(pngimg.com\ -\ facebook_logos_PNG19753.png) no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.icon2 {
+  position: absolute;
+  top: calc(20%);
+  left: calc(1%);
+  background: url(twitter-vector-logo-logotype-vector-social-media_901408-401.jpg)
+    no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.icon3 {
+  position: absolute;
+  top: calc(35%);
+  left: calc(1%);
+  background: url(410617_facebook-icon-transparent-png.jpg) no-repeat;
+  background-size: cover;
+  background-color: white;
+}

@@ -1,0 +1,57 @@
+.main {
+  width: 1500px;
+  height: 600px;
+  border: 1px solid black;
+  background-color: rgb(243, 44, 84);
+}
+.main .left {
+  width: 300px;
+  height: 600px;
+  /* border: 1px solid #000; */
+  float: left;
+  box-sizing: border-box;
+  color: white;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.main .right {
+  width: 1200px;
+  height: 600px;
+  /* border: 1px solid #000; */
+  float: left;
+  box-sizing: border-box;
+  background: url(product-img1.png);
+  background-repeat: no-repeat;
+  background: cover;
+}
+.main h1 {
+  font-size: 50px;
+}
+.main .denibutton {
+  width: 150px;
+  height: 50px;
+  background-color: #000;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+.main .icon1 {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #000;
+  position: relative;
+  top: 565px;
+  border-radius: 50%;
+  background: #fff;
+}
+.main .icon2 {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000;
+    position: relative;
+    top: 494px;
+    left: 80px;
+    border-radius: 50%;
+    background: #fff;
+}

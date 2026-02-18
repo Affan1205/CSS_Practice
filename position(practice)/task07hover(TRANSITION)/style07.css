@@ -1,0 +1,37 @@
+.main {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 50px auto;
+  position: relative;
+}
+.main .box {
+  width: 80px;
+  height: 80px;
+  border: 1px solid;
+  text-align: center;
+  line-height: 80px;
+  background-color: blue;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
+  transition: all 2s linear;
+}
+.main:hover .box:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+.main:hover .box:nth-child(2) {
+  top: 0;
+  left: calc(100% - 80px);
+}
+.main:hover .box:nth-child(3){
+  top: calc(100% - 80px);
+  left: calc(100% - 80px);
+}
+.main:hover .box:nth-child(4){
+  top: calc(100% - 80px);
+  left: 0;
+}

@@ -1,0 +1,23 @@
+.parent{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+.parent .left{
+    width: 300px;
+    height: 200px;
+    background: hsl(120, 100%, 79%);
+    float: left;
+    /* margin: 50px 0px; */
+}
+.parent .right{
+    width: 300px;
+    height: 200px;
+    background: hsl(0, 100%, 72%);
+    float: left;
+}
+h1{
+    background: rgb(255, 255, 136);
+    clear: both;
+}

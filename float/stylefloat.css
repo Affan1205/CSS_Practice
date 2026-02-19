@@ -1,0 +1,9 @@
+ul{
+    background: hsl(0, 100%, 77%);
+    list-style-type: none;
+    overflow: hidden;
+}
+ul li{
+    font-size: 30px;
+    float: left;
+}

@@ -1,0 +1,47 @@
+.main {
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin: 200px auto;
+    perspective: 6074px;
+    perspective-origin: -464% -335%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 4s linear;
+}
+.main:hover {
+    transform: rotateX(45deg) rotateY(120deg) rotateZ(45deg);
+}
+.main .child {
+    width: inherit;
+    height: inherit;
+    border: 1px solid red;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+}
+.main .child:nth-child(1){
+    background: #9016;
+    transform: rotateY(-90deg) translateZ(100px);
+}
+.main .child:nth-child(2){
+    background: #4bc6;
+    transform: rotateY(90deg) translateZ(100px);
+}
+.main .child:nth-child(3){
+    background: #8117;
+    transform: rotateX(90deg) translateZ(100px);
+}
+.main .child:nth-child(4){
+    background: #f956;
+    transform: rotateX(-90deg) translateZ(100px);
+}
+.main .child:nth-child(5){
+    background: #4256;
+    transform:  rotateY(180deg) translateZ(100px);
+}
+.main .child:nth-child(6){
+    background: #4956;
+    transform:   translateZ(100px);
+}

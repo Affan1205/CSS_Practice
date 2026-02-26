@@ -1,0 +1,166 @@
+.main {
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid black; */
+  perspective: 800px;
+  perspective-origin: -394px -200px;
+  transform-style: preserve-3d;
+  margin: 150px auto;
+  position: relative;
+  transition: all 5s linear;
+}
+.main:hover {
+  transform: rotateX(45deg) rotateY(120deg) rotateZ(45deg);
+}
+.main .child {
+  width: inherit;
+  height: inherit;
+  border: 1px solid black;
+  background-color: rgb(13, 13, 226, 0.2);
+  position: absolute;
+  font-size: 50px;
+  line-height: 200px;
+  text-align: center;
+}
+.main .child:nth-child(1) {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+.main .child:nth-child(2) {
+  transform: rotateY(90deg) translateZ(100px);
+}
+.main .child:nth-child(3) {
+  transform: rotateX(90deg) translateZ(100px);
+}
+.main .child:nth-child(4) {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+.main .child:nth-child(5) {
+  transform: rotateX(180deg) translateZ(100px);
+}
+.main .child:nth-child(6) {
+  transform: translateZ(100px);
+}
+.main .one {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: calc(50%);
+  left: calc(50%);
+}
+.main .two {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+}
+.main .two:nth-child(1) {
+  top: calc(50%);
+  left: calc(25%);
+}
+.main .two:nth-child(2) {
+  top: calc(50%);
+  left: calc(50%);
+}
+.main .three {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+}
+.main .three:nth-child(1) {
+  top: calc(25%);
+  left: calc(50% - 20px);
+}
+.main .three:nth-child(2) {
+  top: calc(50%);
+  left: calc(25%);
+}
+.main .three:nth-child(3) {
+  top: calc(50%);
+  left: calc(50%);
+}
+.main .four {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+}
+.main .four:nth-child(1) {
+  top: calc(25%);
+  left: calc(25%);
+}
+.main .four:nth-child(2) {
+  top: calc(25%);
+  left: calc(50%);
+}
+.main .four:nth-child(3) {
+  top: calc(50%);
+  left: calc(25%);
+}
+.main .four:nth-child(4) {
+  top: calc(50%);
+  left: calc(50%);
+}
+.main .five {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+}
+.main .five:nth-child(1) {
+  top: calc(25%);
+  left: calc(20%);
+}
+.main .five:nth-child(2) {
+  top: calc(25%);
+  left: calc(60%);
+}
+.main .five:nth-child(3) {
+  top: calc(35%);
+  left: calc(50% - 20px);
+}
+.main .five:nth-child(4) {
+  top: calc(50%);
+  left: calc(20%);
+}
+.main .five:nth-child(5) {
+  top: calc(50%);
+  left: calc(60%);
+}
+.main .six {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+}
+.main .six:nth-child(1) {
+  top: calc(30%);
+  left: calc(20%);
+}
+.main .six:nth-child(2) {
+  top: calc(30%);
+  left: calc(50%);
+}
+.main .six:nth-child(3) {
+  top: calc(30%);
+  left: calc(80%);
+}
+.main .six:nth-child(4) {
+  top: calc(60%);
+  left: calc(20%);
+}
+.main .six:nth-child(5) {
+  top: calc(60%);
+  left: calc(50%);
+}
+.main .six:nth-child(6) {
+  top: calc(60%);
+  left: calc(80%);
+}

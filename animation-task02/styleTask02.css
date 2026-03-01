@@ -1,0 +1,395 @@
+.main {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 50px auto;
+    position: relative;
+}
+
+.main .box {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: hsl(120, 100%, 83%);
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+}
+
+@keyframes moveM {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    50% {
+        top: 0;
+        left: calc(20%);
+    }
+
+    100% {
+        top: calc(12%);
+        left: calc(20%);
+    }
+}
+
+.main .box:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: moveM 2s 1 forwards;
+}
+
+@keyframes moveE {
+    0% {
+
+        top: calc(100% - 60px);
+        left: calc(100% - 60px);
+    }
+
+    25% {
+        top: calc(100% - 60px);
+        left: calc(100% - 150px);
+    }
+
+    50% {
+        top: calc(15%);
+        left: calc(100% - 150px);
+    }
+
+    75% {
+        top: calc(12%);
+        left: calc(31%);
+    }
+
+    100% {
+        top: calc(12%);
+        left: calc(31%);
+    }
+}
+
+.main .box:nth-child(2) {
+    position: absolute;
+    top: calc(100% - 60px);
+    left: calc(100% - 60px);
+    animation: moveE 2s 1 2s forwards;
+}
+
+@keyframes moveR {
+    0% {
+        top: calc(100% - 60px);
+        left: 0;
+    }
+
+    20% {
+        top: calc(100% - 60px);
+        left: calc(20%);
+    }
+
+    40% {
+        top: calc(24%);
+        left: calc(20%);
+    }
+
+    60% {
+        top: calc(24%);
+        left: calc(60%);
+    }
+
+    80% {
+        top: calc(12%);
+        left: calc(42%);
+    }
+
+    100% {
+        top: calc(12%);
+        left: calc(42%);
+    }
+}
+
+.main .box:nth-child(3) {
+    position: absolute;
+    top: calc(100% - 60px);
+    left: 0;
+    animation: moveR 2s 1 4s forwards;
+}
+
+@keyframes moveN {
+    0% {
+        top: calc(12%);
+        left: calc(100% - 60px);
+    }
+
+    100% {
+        top: calc(12%);
+        left: calc(53%);
+    }
+}
+
+.main .box:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: calc(100% - 60px);
+    animation: moveN 2s 1 6s forwards;
+
+}
+
+@keyframes moveF {
+    0% {
+        top: calc(50% - 30px);
+        left: calc(17%);
+    }
+
+    50% {
+        top: calc(25%);
+        left: calc(12%);
+    }
+
+    100% {
+        top: calc(25%);
+        left: calc(12%);
+    }
+}
+
+.main .box:nth-child(5) {
+    position: absolute;
+    top: calc(50% - 30px);
+    left: 0;
+    animation: moveF 2s 1 8s forwards;
+}
+
+@keyframes moveU {
+    0% {
+        top: calc(50% - 30px);
+        left: calc(100% - 60px);
+    }
+
+    25% {
+        top: calc(50% - 30px);
+        left: calc(75%);
+    }
+
+    50% {
+        top: calc(25%);
+        left: calc(75%);
+    }
+
+    75% {
+        top: calc(25%);
+        left: calc(23%);
+    }
+
+    100% {
+        top: calc(25%);
+        left: calc(23%);
+    }
+}
+
+.main .box:nth-child(6) {
+    position: absolute;
+    top: calc(50% - 30px);
+    left: calc(100% - 60px);
+    animation: moveU 2s 1 10s forwards;
+}
+
+@keyframes moveL1 {
+    0% {
+        top: calc(25%);
+        left: 0;
+    }
+
+    25% {
+        top: calc(40%);
+        left: 0;
+    }
+
+    50% {
+        top: calc(40%);
+        left: calc(39%);
+    }
+
+    75% {
+        top: calc(25%);
+        left: calc(39%);
+    }
+
+    100% {
+        top: calc(25%);
+        left: calc(34%);
+    }
+}
+
+.main .box:nth-child(7) {
+    position: absolute;
+    top: calc(25%);
+    left: 0;
+    animation: moveL1 2s 1 12s forwards;
+}
+
+@keyframes moveL2 {
+    0% {
+        top: calc(68%);
+        left: calc(100% - 60px);
+    }
+
+    25% {
+        top: calc(68%);
+        left: calc(75%);
+    }
+
+    50% {
+        top: calc(25%);
+        left: calc(75%);
+    }
+
+    75% {
+        top: calc(25%);
+        left: calc(45%);
+    }
+
+    100% {
+        top: calc(25%);
+        left: calc(45%);
+    }
+}
+
+.main .box:nth-child(8) {
+    position: absolute;
+    top: calc(68%);
+    left: calc(100% - 60px);
+    animation: moveL2 2s 1 14s forwards;
+}
+
+@keyframes moveS {
+    0% {
+        top: calc(25%);
+        left: calc(100% - 60px);
+    }
+
+    50% {
+        top: calc(38%);
+        left: calc(100% - 60px);
+    }
+
+    100% {
+        top: calc(38%);
+        left: calc(20%);
+    }
+}
+
+.main .box:nth-child(9) {
+    position: absolute;
+    top: calc(25%);
+    left: calc(100% - 60px);
+    animation: moveS 2s 1 16s forwards;
+}
+
+@keyframes moveT {
+    0% {
+        top: calc(68%);
+        left: 0;
+    }
+
+    50% {
+        top: calc(68%);
+        left: calc(31%);
+    }
+
+    100% {
+        top: calc(38%);
+        left: calc(31%);
+    }
+}
+
+.main .box:nth-child(10) {
+    position: absolute;
+    top: calc(68%);
+    left: 0;
+    animation: moveT 2s 1 18s forwards;
+}
+
+@keyframes moveA {
+    0% {
+        top: 0;
+        left: calc(50%);
+    }
+
+    25% {
+        top: 0;
+        left: calc(80%);
+    }
+
+    50% {
+        top: calc(38%);
+        left: calc(80%);
+    }
+
+    75% {
+        top: calc(38%);
+        left: calc(42%);
+    }
+
+    100% {
+        top: calc(38%);
+        left: calc(42%);
+    }
+}
+
+.main .box:nth-child(11) {
+    position: absolute;
+    top: 0;
+    left: calc(50%);
+    animation: moveA 2s 1 20s forwards;
+}
+
+@keyframes moveC {
+    0% {
+        top: calc(50%);
+        left: calc(50%);
+    }
+
+    50% {
+        top: calc(50%);
+        left: calc(55%)
+    }
+
+    100% {
+        top: calc(38%);
+        left: calc(53%)
+    }
+}
+
+.main .box:nth-child(12) {
+    position: absolute;
+    top: calc(50%);
+    left: calc(50%);
+    animation: moveC 2s 1 22s forwards;
+}
+
+@keyframes moveK {
+    0% {
+        top: calc(100% - 60px);
+        left: calc(50%);
+    }
+
+    25% {
+        top: calc(100% - 60px);
+        left: calc(68%);
+    }
+
+    50% {
+        top: calc(38%);
+        left: calc(64%);
+    }
+    100% {
+        top: calc(38%);
+        left: calc(64%);
+    }
+}
+
+.main .box:nth-child(13) {
+    position: absolute;
+    top: calc(100% - 60px);
+    left: calc(50%);
+    animation: moveK 2s 1 24s forwards;
+}

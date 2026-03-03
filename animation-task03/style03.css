@@ -1,0 +1,72 @@
+.main {
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.main img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes movingBoat {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-210%);
+    }
+}
+
+.main .boat {
+    width: 300px;
+    height: 200px;
+    border: 1px solid transparent;
+    position: absolute;
+    bottom: calc(30%);
+    right: calc(5%);
+    animation: movingBoat 5s infinite ease;
+}
+
+@keyframes movingPlane {
+    0% {
+        position: absolute;
+        bottom: calc(0%);
+        left: calc(0%);
+    }
+    
+    25% {
+        position: absolute;
+        bottom: calc(20%);
+        left: calc(20%);
+    }
+    50% {
+        position: absolute;
+        bottom: calc(40%);
+        left: calc(40%);
+    }
+    75% {
+        position: absolute;
+        bottom: calc(60%);
+        left: calc(60%);
+    }
+    100% {
+        position: absolute;
+        bottom: calc(80%);
+        left: calc(80%);
+    }
+}
+
+.main .plane {
+    width: 300px;
+    height: 200px;
+    border: 1px solid transparent;
+    position: absolute;
+    bottom: calc(0%);
+    left: calc(0%);
+    animation: movingPlane 5s infinite linear;
+}

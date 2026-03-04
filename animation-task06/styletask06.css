@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 50px auto;
+}
+.main .box{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+@keyframes move {
+    0%{
+        top:calc(50% - 15px);
+    left: calc(50% - 15px);
+    }
+    100%{
+        top: 50%;
+    left: 50%;
+    }
+}
+.main .box:nth-child(2):hover{
+    animation: move 1s 1 linear forwards;
+}
+.main .box:nth-child(1){
+    background-color: rgb(255, 154, 154);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.main .box:nth-child(2){
+    background-color: rgb(144, 149, 255);
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top:calc(50% - 15px);
+    left: calc(50% - 15px);
+}

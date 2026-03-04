@@ -1,0 +1,47 @@
+.main {
+  margin: 100px auto;
+  width: 400px;
+  height: 400px;
+  border: 50px solid rgb(43, 222, 225);
+  border-radius: 50%;
+  position: relative;
+}
+.main:hover .insidemain {
+  animation-play-state: paused;
+}
+@keyframes minutehand {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.main .insidemain {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  /* border: 5px solid rgb(43, 222, 225); */
+  animation: minutehand 5s linear infinite;
+}
+.main .center {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(43, 222, 225);
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+}
+.main .minutehand {
+  position: absolute;
+  width: 15px;
+  height: 90px;
+  border: 1px solid rgb(43, 222, 225);
+  background-color: rgb(43, 222, 225);
+  border-radius: 10px 10px 0 0;
+  top: calc(50% - 90px);
+  left: calc(50% - 14px);
+}

@@ -1,0 +1,14 @@
+/* para ke baad wale ka color red karega (+) */
+/* p + h1{
+    background-color: red;
+} */
+
+/* para ke baad ke baadwale ka color red karega (+) */
+/* p + h1 + h1{
+    background-color: red;
+} */
+
+/* para ke baad ke sab ka color same use(~) */
+/* p ~h1{
+    background-color: red;
+} */

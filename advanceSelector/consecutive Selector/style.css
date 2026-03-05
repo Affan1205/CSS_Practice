@@ -1,0 +1,7 @@
+.main>h1>span{
+    background-color: green;
+}
+/* Wrong method to target span */
+/* .main>span{
+    background-color: green;
+} */

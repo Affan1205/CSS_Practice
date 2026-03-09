@@ -1,0 +1,32 @@
+.main{
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border: 1px solid red;
+}
+.main h1{
+    background-color: rgb(119, 119, 255);
+    color: white;
+}
+/* mobile */
+@media (max-width: 425px) {
+    .main{
+        width: 200px;
+        height: 200px;
+    }
+    .main h1{
+        background-color: violet;
+        color: black;
+    }
+}
+/* tablet */
+@media (min-width:425px) and (max-width: 768px) {
+    .main{
+        width: 300px;
+        height: 300px;
+    }
+    .main h1{
+        background-color: red;
+        color: black;
+    }
+}

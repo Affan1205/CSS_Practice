@@ -1,0 +1,44 @@
+.parent {
+  background-color: rgb(172, 255, 172);
+  border: 1px solid red;
+  display: grid;
+  /* for making number of columns */
+  /* grid-template-columns: 100px 200px auto ; */
+  /* for making number of columns that are equal */
+  grid-template-columns: auto auto auto auto auto;
+  /* grid-template-columns: 200px 200px 200px; */
+
+  /* height of rows not number of rows, in grid number of row depand upan columns*/
+  /* grid-template-rows: 10vh 10vh 10vh 10vh; */
+
+  /* gap between columns and row */
+  /* grid-column-gap: 10px;
+  grid-row-gap: 10px; */
+  /* grid-gap: 10px 30px; */
+ height: 80vh;
+  /* justify-content: flex-end;     */
+}
+.parent .child {
+  padding: 20px;
+  font-size: 30px;
+  border: 1px solid black;
+  text-align: center;
+  background: rgb(244, 153, 233);
+}
+.parent .child:nth-child(1) {
+  /* merging columns */
+  /* grid-column-start: 1;
+    grid-column-end: 5; */
+  /* grid-column: 1/5; */
+  /* grid-column: 1/span 4; */
+
+  /* merging rows */
+  /* grid-row-start: 1;
+    grid-row-end: 4; */
+  /* grid-row: 1/4; */
+  /* grid-row: 1 / span 2; */
+
+  /* merging columns and row under 1 property */
+  /* grid-area: 1/1/3/4; */
+  /* grid-area: 1/1/span 2 /span 2; */
+}

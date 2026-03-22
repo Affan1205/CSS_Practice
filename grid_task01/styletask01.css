@@ -1,0 +1,32 @@
+.main{
+    border: 1px solid black;
+    background-color: rgb(190, 190, 255);
+    display: grid;
+    grid-template-areas: 'header header header header header header'
+                         'menu main main main right right' 
+                         'menu footer footer footer footer footer';
+                         /* '.' use dot for empty columns*/
+}
+.main .child{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    background:linear-gradient(to right,rgb(188, 7, 188),violet);
+    border: 1px solid black;
+}
+.main .child:nth-child(1){
+    grid-area: header ;
+}
+.main .child:nth-child(2){
+    grid-area: menu ;
+}
+.main .child:nth-child(3){
+    grid-area: main;
+}
+.main .child:nth-child(4){
+    grid-area: right ;
+}
+.main .child:nth-child(5){
+    grid-area: footer;
+}

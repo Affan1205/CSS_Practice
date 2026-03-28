@@ -1,0 +1,89 @@
+#frontLayout {
+  border: 2px solid black;
+  display: grid;
+  grid-template-areas:
+    "header menu menu menu"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "main main . image"
+    "main main . extra"
+    "banner banner banner banner"
+    "banner banner banner banner";
+
+  grid-template-rows: auto 10vh 10vh 10vh auto auto 5vh 5vh;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(251, 248, 248);
+  /* grid-gap: 20px 20px; */
+}
+#frontLayout .header {
+  grid-area: header;
+  background: rgb(66, 65, 65);
+}
+#frontLayout .menu {
+  grid-area: menu;
+  background: rgb(255, 150, 150);
+}
+#frontLayout .hero {
+  grid-area: hero;
+  background: rgb(162, 167, 255);
+}
+#frontLayout .main {
+  grid-area: main;
+  background: rgb(178, 255, 196);
+}
+#frontLayout .image {
+  grid-area: image;
+  background: rgb(255, 127, 227);
+}
+#frontLayout .extra {
+  grid-area: extra;
+  background: rgb(255, 185, 127);
+}
+#frontLayout .banner {
+  grid-area: banner;
+  background: rgb(255, 251, 127);
+}
+@media (max-width: 425px) {
+  #frontLayout {
+    grid-template-areas:
+      "header"
+      "menu"
+      "hero"
+      "main"
+      "banner"
+      "extra"
+      "image";
+
+    grid-template-rows: auto 20vh auto auto auto auto;
+
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  #frontLayout {
+    grid-template-areas:
+      "header header header header"
+      "hero hero hero hero"
+      "menu main main main"
+      "menu main main main"
+      "menu banner banner banner"
+      "menu extra extra image";
+
+    grid-template-rows: auto 20vh auto auto auto auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  #frontLayout {
+    grid-template-areas:
+      "header menu menu menu"
+      "hero hero hero hero"
+      "hero hero hero hero"
+      "hero hero hero hero"
+      "main main . image"
+      "main main . extra"
+      "banner banner banner banner"
+      "banner banner banner banner";
+    grid-template-rows: auto 10vh 10vh 10vh auto auto 5vh 5vh;
+  }
+}

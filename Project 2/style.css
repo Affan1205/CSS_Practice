@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #121320;
+  color: white;
+}
+.main-card {
+  width: 400px;
+  height: 250px;
+  /* border: 1px solid; */
+  margin: 225px auto;
+  position: relative;
+}
+.main-card .wrapper {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  transition: all 1s ease;
+  z-index: 11;
+  transform-style: preserve-3d; 
+}
+.wrapper:hover {
+  transform: rotateY(180deg);
+}
+.main-card .circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ab4fb8, #e7dcec);
+}
+.main-card .top-circle {
+  position: absolute;
+  top: calc(-50% + 10px);
+  left: calc(-25%);
+}
+.main-card .bottom-circle {
+  position: absolute;
+  top: calc(50% - 10px);
+  right: calc(-25%);
+}
+.card {
+  width: 400px;
+  height: 250px;
+  /* border: 1px solid; */
+  border-radius: 25px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(148, 146, 146, 0.1);
+  box-shadow: 0px 0px 0px 0.5px rgb(148, 146, 146);
+  backface-visibility: hidden;
+}
+.front-face {
+  position: absolute;
+  z-index: 3;
+}
+.front-face .card-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+.card-logo .logo {
+  width: 130px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.card-logo .logo img {
+  width: 80px;
+  height: 50px;
+}
+.card-logo .chip {
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+}
+.card-logo .chip img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.card-number {
+  margin-top: 20px;
+  padding-left: 25px;
+}
+.card-number span {
+  font-size: 12px;
+}
+.card-number h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.card-holder {
+  margin-top: 10px;
+  padding: 0px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-holder h3 {
+  font-weight: 400;
+}
+.card-holder .exp-date span {
+  font-weight: 300;
+  font-size: 12px;
+}
+.card-holder .exp-date h2 {
+  font-weight: 300;
+  font-size: 20px;
+}
+.back-face {
+  position: absolute;
+  transform: rotateY(180deg);
+}
+.back-face .top-para {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 15px;
+}
+.back-face .black-strip {
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+.cvv-strip {
+  display: flex;
+  align-items: center;
+  margin: 25px;
+}
+.evenOdd-strip {
+  width: 325px;
+  height: 40px;
+  background: linear-gradient(
+    white,
+    grey,
+    white,
+    grey,
+    white,
+    grey,
+    white,
+    grey
+  );
+  border-radius: 5px;
+}
+.password {
+  width: 40px;
+  height: 30px;
+  background: white;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.back-face .bottom-para {
+  font-size: 12px;
+  margin: 25px;
+}

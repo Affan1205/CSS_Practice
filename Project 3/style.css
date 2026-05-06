@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: silver;
+}
+.container {
+  width: 400px;
+  background-image: url(images.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.alignment {
+  margin: 20px;
+  max-width: 380px;
+}
+.logo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 90px;
+  height: 60px;
+}
+.logo span {
+  font-size: 20px;
+  font-weight: 400;
+}
+.chip img {
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+}
+.card-number {
+  margin-top: 40px;
+}
+.card-number span {
+  font-size: 15px;
+}
+.card-number h5 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.card-holder {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-holder h6 {
+  font-size: 22px;
+  font-weight: 400;
+  font-style:italic;
+}
+.card-holder .exp span {
+  font-size: 15px;
+}
+.card-holder .exp h4 {
+  font-size: 22px;
+  font-weight: 400;
+}

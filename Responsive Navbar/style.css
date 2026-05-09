@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body a {
+  text-decoration: none;
+  color: #232323;
+  font-size: 17px;
+  font-weight: 500;
+}
+body ul {
+  list-style-type: none;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(1_l8gOG4SkO657mSnBv9GZFA.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.header-section {
+  width: 100%;
+  height: 8vh;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 10px 1px rgb(161, 160, 160);
+  display: flex;
+  align-items: center;
+}
+.header {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid;  */
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.nav ul {
+  display: flex;
+}
+.nav a {
+  margin-left: 35px;
+}
+.nav a:hover {
+  border-bottom: 2px solid #232323;
+}
+
+/* sideBar navigation */
+.sidebar {
+  width: 320px;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 0;
+  right: -320px;
+  /* transform: right 0.5s; */
+}
+.sidebar-nav ul li {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.sidebar-nav ul li a:hover {
+  border-bottom: 2px solid #232323;
+}
+#check {
+  display: none;
+}
+#check:checked ~ .sidebar {
+  right: 0;
+}
+.hamburger {
+  display: none !important;
+  font-size: 25px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .nav {
+    display: none; /* Hide the horizontal menu */
+  }
+
+  .hamburger {
+    display: block !important; /* Show the bars icon */
+  }
+}
